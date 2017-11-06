@@ -3,13 +3,14 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  line-height: 1.6;
 }
 
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+  background-image: url(../images/banner-landingpage.jpg);
 }
-
 .center {
   text-align: center;
 }
@@ -39,6 +40,7 @@ html {
 header {
   position: fixed;
   width: 100%;
+  height: 85px;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
 }
@@ -124,6 +126,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-left: 100px;
+  margin-top: 170px;
 }
 
 #sign-up-cta .content {
